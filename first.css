@@ -1,0 +1,40 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+ background-color:black;
+ color: white;
+    
+}
+#hi{
+    color: white;
+}
+#logo{
+    padding: 0 10px 30px 10px;
+}
+#top{
+    color: red;
+    padding: 20px 0 20px 30px;
+    -webkit-text-stroke: 2px black;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+ }
+
+.list a{
+    text-decoration: none;
+    padding: 10px 0 20px 10%;;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px 10px 20px;
+}

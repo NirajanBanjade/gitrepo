@@ -9,7 +9,7 @@ body {
     text-decoration: none;
     padding: 20px;
     font-weight: bold;
-    color: black;
+    color: white;
     box-sizing: border-box;
 
   }
@@ -289,7 +289,7 @@ li{
 /*======================*/
 
 body {
-    background-image: url('pi.jpg');
+    background-image: url('ne.png');
     background-repeat: no-repeat;
     background-size: cover; /* or 'contain' if preferred */
     /* Additional CSS properties for other styling */

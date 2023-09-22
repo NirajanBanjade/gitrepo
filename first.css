@@ -9,14 +9,18 @@ body {
     text-decoration: none;
     padding: 20px;
     font-weight: bold;
-    color: white;
+    color: black;
     box-sizing: border-box;
+
   }
   
   .list a:hover {
     font-weight: bold;
     border: 2px solid white;
     border-radius: 10px;
+  }
+  #stick{
+    margin-left: 300px;
   }
   
   nav {
@@ -284,7 +288,14 @@ li{
 
 /*======================*/
 
-
+body {
+    background-image: url('pi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* or 'contain' if preferred */
+    /* Additional CSS properties for other styling */
+    height: 100vh;
+    background-attachment: fixed;
+}
 
 
 
